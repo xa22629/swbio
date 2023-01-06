@@ -18,8 +18,7 @@ Necessary Packages:
 - Ensure that the notebook and csv file are saved in the same directory.
 - Open the 'Individual Project: Strava Archive Analysis.ipynb' notebook and import the necessary packages stated above.
 - Read in the 'activities.csv' file
-- Run the cells sequentially. Note that some cells will overwrite existing data in the data frames therefore errors may be generated should you try to run a cell a second time without reloading the data.
+- Run the cells sequentially. Note that some cells will overwrite existing data therefore errors may be generated should you try to run a cell a second time without reloading the data.
 
 ### Notes on Compatibility
 Ideally this code would be applicable to any given archive as downloaded from the Strava website. However, for the purposes of anonymity and efficiency, the 'activities.csv' file saved here was heavily modified in Microsoft Excel prior to use. As a result, the code as written is unlikely translate to another individual's archive without similar modification of the csv file.
-
