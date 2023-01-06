@@ -16,7 +16,7 @@ Necessary Packages:
 1. Ensure that the notebook and csv file are saved in the same directory.
 2. Open the 'Individual Project: Strava Archive Analysis.ipynb' notebook and import the necessary packages stated above.
 3. Read in the 'activities.csv' file.
-4. Run the cells sequentially. Note that some cells will overwrite existing data, therefore errors may be generated should you try to run a cell a second time without reloading the data.
+4. Run the cells sequentially. Note that some cells will overwrite existing data, therefore errors may be generated should you try to run a cell a second time without clearing the output first.
 5. The notebook is split into four sections:
    - Manipulation of the Dataset - this code will re-organise the data frame to facilitate the subsequent analysis.
    - Initial Exploration - this returns numerical answers to specific questions as part of f-strings.
