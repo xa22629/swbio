@@ -4,7 +4,7 @@
 Strava is a popular website typically used by cyclists and runners to track GPS data from physical exercise. This code is written in Python3 using Jupyter Notebook with the intention of providing insight into a personal Strava archive containing data accumulated over six years. 
 
 ### Requirements
-Download the 'Individual Project: Strava Archive Analysis.ipynb' Jupyter Notebook and associated 'activities.csv' file from this repository. In order to run the code, Python3 and Jupyter Notebook should be installed, both of which are available via Anaconda Navigator. Any additional packages are stated below - instruction on their installation is provided in the 'Individual Project: Strava Archive Analysis.ipynb' notebook.
+Download 'strava.ipynb' and 'activities.csv' file from this repository. In order to run the code, Python3 and Jupyter Notebook should be installed, both of which are available via Anaconda Navigator. Any additional packages are stated below - instruction on their installation is provided in the 'strava.ipynb' notebook.
 
 Necessary Packages:
 - pandas
@@ -14,9 +14,9 @@ Necessary Packages:
 
 ### Instructions
 1. Ensure that the notebook and csv file are saved in the same directory.
-2. Open the 'Individual Project: Strava Archive Analysis.ipynb' notebook and import the necessary packages stated above.
+2. Open the 'strava.ipynb' notebook and import the necessary packages stated above.
 3. Read in the 'activities.csv' file.
-4. Run the cells sequentially. Note that some cells will overwrite existing data, therefore errors may be generated should you try to run a cell a second time without clearing the output first.
+4. Run the cells sequentially. Note that some cells will overwrite existing data, therefore errors may be generated should you try to run a cell a second time without reading in the original data again.
 5. The notebook is split into four sections:
    - Manipulation of the Dataset - this code will re-organise the data frame to facilitate the subsequent analysis.
    - Initial Exploration - this returns numerical answers to specific questions as part of f-strings.
